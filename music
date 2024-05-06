@@ -1,2 +1,7 @@
 #ffmpeg -i input.mp4 -vn -b:a 128k -ar 44k -c:a mp3 output.mp3
 ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 192k -f mp3 output.mp3
+ffmpeg -i xxx.mp4 -f mp3 -ar 16000 xxx.mp3
+# xxx.mp4 视频文件
+# -f mp3 mp3编码
+# -ar 16000 音频采样率
+# xxx.mp3输出的音频文件
