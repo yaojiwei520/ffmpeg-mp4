@@ -1,0 +1,1 @@
+ffmpeg -i input.mp4 -vn -b:a 128k -ar 44k -c:a mp3 output.mp3
